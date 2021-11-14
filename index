@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="imagenes/Cat favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <section class="contenedor nav">
+                <div class="logo">
+                    <a href="index.html">
+                    <img src="imagenes/Cat favicon.png" >
+                </div>               
+                <div class="enlaces-header">
+                    <a href="https://www.ead.pucv.cl/">e[ad]</a>
+                    <a href="https://www.instagram.com/eadpucv/">Instagram</a>
+                    <a href="https://www.youtube.com/channel/UCBwK0x7SSYP3q-qfHsM0kCA">Youtube</a>
+                    <a href="https://www.facebook.com/ead.pucv">Facebook</a>
+                </div>
+            </section>
+        </nav>
+                <section class="materia-clases">
+                    <div class="contenedor1">
+                        <h2 class="titulo">Página de navegación principal</h2>
+                        <p class="subtitulo" >Bitácora taller Diseño desde el Código Segundo Semestre 2021</p>
+                        <div class="contenedor-articulo">
+                            <div class="articulo" data-aos="zoom-in-right">
+                                <h3>HTML</h3>
+                                <p>¿Qué es html?¿Qué es una etiqueta? ¿Cuántas existen? Estructura básica de html.</p>
+                                <a href="Materia/P1.html">Abrir</a>
+                            </div>
+                            <div class="articulo" data-aos="zoom-in-right">
+                                <h3>CSS</h3>
+                                <p>¿Qué es CSS? ¿Para qué sirve? Personalización visual del contenido de páginas web.</p>
+                                <a href="Materia/P2.html">Abrir</a>
+                            </div>
+                            <div class="articulo" data-aos="zoom-in-right">
+                                <h3>Tipografía</h3>
+                                <p>CSS parte 2: personalización de tipografías. ¿Cómo agregar tipografías al archivo HTML?</p>
+                                <a href="/Materia/P3.html">Abrir</a>
+                            </div>
+                            <div class="articulo" data-aos="zoom-in-right">
+                                <h3>Modelos de caja</h3>
+                                <p>Maquetación y comportamiento de CSS dentro de bloques. Contenedor Flexbox</p>
+                                <a href="/Materia/P4.html">Abrir</a>
+                            </div>
+                            <div class="articulo" data-aos="zoom-in-right">
+                                <h3>Grid</h3>
+                                <p>Método de diseño de páginas web: alineación y sistema de división de elementos de una página.</p>
+                                <a href="/Materia/P5.html">Abrir</a>
+                            </div>
+                            <div class="articulo" data-aos="zoom-in-right">
+                                <h3>Diseño de la página</h3>
+                                <p>Desgloce y visualización de las partes que componen la página principal y de contenido, estructura del HTML y CSS.</p>
+                                <a href="/Materia/P6.html">Abrir</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    </header>
+    <footer>
+        <div class="Imagen gatito">
+            <img src="imagenes/Cat favicon.png">
+        </div>
+    </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+<script src="Java/Jscript.js"></script>
+</body>
+</html>
